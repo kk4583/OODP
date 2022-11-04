@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std; 
+int main() 
+{
+int a,b,i=1;
+a=rand()%9+1; 
+while(i>0){ 
+cout<<"Enter the number"; 
+cin>>b; 
+if (a==b){
+cout<<"you win"<<"\n"; 
+i--;} 
+else{ 
+cout<<"try again"<<"\n";}
+} 
+return 0; 
+}
